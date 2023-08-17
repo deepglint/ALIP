@@ -1,0 +1,1 @@
+python text_image_retrieval.py --batch-size 128 --model-name ViT-B/32 --model-weight weights/ALIP_YFCC15M_B32.pt --dataset flickr

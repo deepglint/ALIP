@@ -1,0 +1,10 @@
+torch==1.12.1+cu113
+torchvision==0.13.1+cu113
+clip==1.0
+regex
+ftfy==6.1.1
+tqdm
+sentencepiece==0.1.99
+protobuf==3.20.3
+nvidia-dali-cuda110==1.24.0
+mxnet==1.9.0
