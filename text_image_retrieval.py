@@ -8,7 +8,7 @@ dataset_dict = {'coco': coco,
                 'flickr': flickr30k}
 
 def compute_retrieval(similarity_scores, txt2img, img2txt):
-    # comput text -> image
+    # compute text -> image
     t2i_similarity_score = similarity_scores.t()
     t2i_ranks = torch.zeros(t2i_similarity_score.shape[0])
 
@@ -23,7 +23,7 @@ def compute_retrieval(similarity_scores, txt2img, img2txt):
     tr10 = 100.0 * len(torch.where(t2i_ranks < 10)[0]) / len(t2i_ranks)
     t2i_report_dict = {"r1": tr1, "r5": tr5, "r10": tr10}
 
-    #comput image -> text
+    #compute image -> text
     i2t_similarity_score = similarity_scores
     i2t_ranks = torch.zeros(i2t_similarity_score.shape[0])
     for index, score in enumerate(i2t_similarity_score):
