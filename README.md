@@ -28,7 +28,7 @@ Author: Kaicheng Yang, Jiankang Deng, Xiang An, Jiawei Li, Ziyong Feng, Jia Guo,
     
     1、Download YFCC15M
 
-    The YFCC15M dataset we used is [YFCC15M-DeCLIP](https://arxiv.org/abs/2110.05208), we download it from the [repo](https://github.com/AdamRain/YFCC15M_downloader), finally we successful donwload 15061515 image-text pairs.
+    The YFCC15M dataset we used is [YFCC15M-DeCLIP](https://arxiv.org/abs/2110.05208), we download it from the [repo](https://github.com/AdamRain/YFCC15M_downloader), finally we successful download 15061515 image-text pairs.
 
     2、Generate synthetic caption
 
@@ -40,7 +40,7 @@ Author: Kaicheng Yang, Jiankang Deng, Xiang An, Jiawei Li, Ziyong Feng, Jia Guo,
 
 - ### Pretrained Model Weight
 
-    You can download the pretrained model weight from [Google Drive](https://drive.google.com/file/d/1AqSHisCKZOZ16Q3sYguK6zIZIuwwEriE/view?usp=share_link) or [BaiduYun](https://pan.baidu.com/s/10dFfvGMWeaTXUyrZlZlCEw?pwd=xftg), and you can find the traning log in [Google Drive](https://drive.google.com/file/d/1I8gdSQCJAfFamDcVztwW8EQIc_OOK8Xh/view?usp=share_link) or [BaiduYun](https://pan.baidu.com/s/1oz0UVzX2N0Sri7MfwR-kog?pwd=7ki7)
+    You can download the pretrained model weight from [Google Drive](https://drive.google.com/file/d/1AqSHisCKZOZ16Q3sYguK6zIZIuwwEriE/view?usp=share_link) or [BaiduYun](https://pan.baidu.com/s/10dFfvGMWeaTXUyrZlZlCEw?pwd=xftg), and you can find the training log in [Google Drive](https://drive.google.com/file/d/1I8gdSQCJAfFamDcVztwW8EQIc_OOK8Xh/view?usp=share_link) or [BaiduYun](https://pan.baidu.com/s/1oz0UVzX2N0Sri7MfwR-kog?pwd=7ki7)
 
 - ### Training
 
@@ -51,7 +51,7 @@ Author: Kaicheng Yang, Jiankang Deng, Xiang An, Jiawei Li, Ziyong Feng, Jia Guo,
 
 - ### Evaluation
 
-    Evaluate zero shot cross-modal retireval
+    Evaluate zero shot cross-modal retrieval
 
     ```
     bash run_retrieval.sh
